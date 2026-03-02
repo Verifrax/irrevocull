@@ -1,128 +1,46 @@
-```
-PRIM-002
-IRREVOCULL
-Irreversible judgment
+# irrevocull
 
-STATUS: REGISTERED
-REGISTRY: https://speedkit.eu
-SNAPSHOT: https://speedkit.eu/REGISTRY_SNAPSHOT.json
-```
+## Purpose
 
-Registered artifact. Identity governed by SPEEDKIT registry.
+Atomic primitive: irreversible cull / no-appeal enforcement.
 
-STATUS: FINAL
+## Status
 
----
+- **Stability**: Experimental
+- **SemVer**: Not guaranteed until v1.0.0
+- **Security**: See **Security** section below
 
-IRREVOCULL renders irreversible judgments.
+## Scope
 
-It does not execute.
-It does not repair.
-It does not explain.
+- What this repo is responsible for
+- What it explicitly does **not** do
 
-It observes output and terminates evaluation.
+## Quickstart
 
----
+```bash
+# clone
+git clone https://github.com/Verifrax/irrevocull.git
+cd irrevocull
 
-## Philosophy
-
-IRREVOCULL exists to **end deliberation**.
-
-It is designed for moments where:
-
-* Evaluation must conclude
-* Ambiguity is unacceptable
-* Responsibility cannot be deferred
-
-Once invoked, the result is binding.
-
----
-
-## Behavior
-
-* Consumes input **exclusively** via `stdin`
-* Emits **exactly one** verdict:
-
-  * `PASS` — complete, decisive output
-  * `FAIL` — detected incompleteness or contradiction
-  * `INVALID` — uncertainty, speculation, or misuse
-* Exits immediately after judgment
-
-The verdict is final.
-
-No retries.
-No flags.
-No configuration.
-No mitigation.
-
----
-
-## Usage
-
-IRREVOCULL is never run alone.
-It must receive output.
-
-```sh
-<command-producing-output> | ./irrevocull.sh
+# install (adjust if needed)
+# (placeholder) npm install / pnpm install / go test ./... / etc.
 ```
 
-### Example
+## Repository layout
 
-```sh
-echo "final answer" | ./irrevocull.sh
-```
+- `/` Root sources
+- `/.github/` Issue + PR templates
+- `/docs/` Documentation (if present)
 
-Output:
+## Security
 
-```text
-PASS
-```
+- Report vulnerabilities privately: **security@verifrax.org**
+- Do **not** open public issues for sensitive findings
 
-```sh
-echo "maybe later" | ./irrevocull.sh
-```
+## Contributing
 
-Output:
+See `CONTRIBUTING.md`.
 
-```text
-FAIL
-```
+## License
 
-Running without input:
-
-```sh
-./irrevocull.sh
-```
-
-Output:
-
-```text
-INVALID
-```
-
----
-
-## Contract
-
-Once observed, the verdict stands.
-
-Responsibility is absolute.
-Blame is void.
-
-If you want nuance, do not run it.
-
----
-
-## Responsibility Boundary
-
-This software is provided under the MIT License.
-
-The MIT License permits use, copying, modification, and redistribution of the code, but it does not provide assurance, certification, audit defense, operational guarantees, or liability coverage.
-
-Use of this software in environments where failure, compliance, legal exposure, or irreversible decisions matter requires an accountable party.
-
-The original maintainer is available for assurance, adaptation, and responsibility when such accountability is required.
-
-Contact: contact@speedkit.eu
-
-Authoritative signed records are issued separately and are not produced by the software.
+MIT. See `LICENSE`.
