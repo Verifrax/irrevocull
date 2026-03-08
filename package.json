@@ -1,0 +1,26 @@
+{
+  "name": "@verifrax/irrevocull",
+  "version": "0.1.0",
+  "description": "Verifrax primitive — judgment primitive for deterministic irreversible systems.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Verifrax/irrevocull.git"
+  },
+  "homepage": "https://github.com/Verifrax/irrevocull#readme",
+  "bugs": {
+    "url": "https://github.com/Verifrax/irrevocull/issues"
+  },
+  "bin": {
+    "irrevocull": "irrevocull.sh"
+  },
+  "files": [
+    "irrevocull.sh",
+    "README.md",
+    "LICENSE",
+    "VERSION"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
