@@ -1,12 +1,6 @@
 # IRREVOCULL
 
-Primitive ID: PRIM-007  
-Package: @verifrax/irrevocull  
-Binary: irrevocull
-
-Verifrax primitive — judgment primitive for deterministic irreversible systems.
-
----
+IRREVOCULL is the Verifrax irreversible-judgment primitive: the bounded primitive surface for irreversible judgment and final-cut handling without becoming authored protocol source, authority issuance, governed execution, public verification, proof publication, archive/reference, or intake.
 
 ## Proof artifacts
 
@@ -30,146 +24,115 @@ This repository is part of the VERIFRAX proof perimeter.
 
 ## Status
 
-Current release status: pre-stable primitive release line.
+* Surface class: irreversible-judgment primitive
+* Repository class: primitive package surface
+* Public host ownership: none
+* Package: `@verifrax/irrevocull`
+* Binary: `irrevocull`
+* Current repository posture: live primitive boundary
+* License: MIT License
 
-Canonical release target:
+## Boundary
 
-package version: 0.1.0  
-tag: v0.1.0
+This repository owns the irreversible-judgment primitive only.
 
-IRREVOCULL is part of the Verifrax primitive layer and follows the canonical primitive governance, naming, version, and packaging rules.
+It defines bounded irreversible judgment and final-cut behavior as a primitive.
+It does not author normative source material.
+It does not issue authority.
+It does not execute governed actions.
+It does not verify published material.
+It does not publish proof.
+It does not serve as archive/reference.
+It does not operate intake.
+It does not replace adjacent sovereign boundaries.
 
----
+## What it does
 
-## Purpose
+- defines the irreversible-judgment primitive for bounded Verifrax use
+- preserves irreversible finality semantics as a primitive rather than a surface takeover
+- keeps primitive behavior inspectable and deterministic
+- supports adjacent repositories without claiming system-wide authority
+- anchors irreversible judgment meaning as a primitive boundary
 
-IRREVOCULL renders judgment over an already-fixed verification and attestation state.
+## What it does not do
 
-Once origin is established, custody is preserved, time is fixed, boundaries are enforced, verification is completed, and attestation has witnessed the result, the system still needs a judgment primitive that can issue a deterministic decision. IRREVOCULL exists to perform that role.
-
-It does not establish origin. It does not preserve custody. It does not set time boundaries. It does not enforce system boundaries. It does not perform primary verification. It does not create the witness layer. It does not terminate lifecycle. Its role is narrower: issue judgment from already-established prior state.
-
----
-
-## What This Primitive Does
-
-- renders deterministic judgment from prior verified and attested state
-- transforms verified evidence into a judgment outcome
-- produces decision output suitable for final downstream termination or enforcement
-
----
-
-## What This Primitive Does Not Do
-
-- does not establish first origin
-- does not preserve custody continuity
-- does not fix temporal ordering
-- does not enforce operational boundaries
-- does not perform primary verification itself
-- does not create attestation witness state
-- does not terminate lifecycle
-
----
-
-## Behavioral Contract
-
-Invocation model:
-
-executable: irrevocull  
-package: @verifrax/irrevocull  
-runtime: CLI-first
-
-The primitive operates only after origin, custody, time, boundary, verification, and attestation have already been completed.
-
-If no stable attested verification state exists, IRREVOCULL must not fabricate a judgment.
-
-Exit codes:
-
-0 — judgment completed successfully  
-non-zero — invocation failed or contract violated
-
----
-
-## Usage
-
-Install:
-
-npm install -g @verifrax/irrevocull
-
-Execute:
-
-irrevocull artifact.json
-
-stdin example:
-
-cat artifact.json | irrevocull
-
----
-
-## Determinism Guarantees
-
-For identical canonical input, IRREVOCULL must produce identical judgment output.
-
-No hidden environmental state may influence the result.
-
-IRREVOCULL assumes prior primitives have already constrained origin, custody, time, boundary, verification, and attestation. It does not substitute for any earlier primitive and does not replace final termination.
-
----
-
-## Security Model
-
-IRREVOCULL protects against ambiguity in final decision state.
-
-Its security value is to ensure that a decision is rendered from already-determined evidence under deterministic judgment rules. It does not establish proof surfaces upstream and does not itself terminate lifecycle state.
-
----
-
-## Relationship to Other Primitives
-
-Canonical primitive order:
-
-1 originseal  
-2 archicustos  
-3 kairoclasp  
-4 limenward  
-5 validexor  
-6 attestorium  
-7 irrevocull  
-8 guillotine
-
-Repositories:
-
-https://github.com/Verifrax/originseal  
-https://github.com/Verifrax/archicustos  
-https://github.com/Verifrax/kairoclasp  
-https://github.com/Verifrax/limenward  
-https://github.com/Verifrax/validexor  
-https://github.com/Verifrax/attestorium  
-https://github.com/Verifrax/irrevocull  
-https://github.com/Verifrax/guillotine
-
----
-
-## Installation
-
-npm install -g @verifrax/irrevocull
-
-command -v irrevocull
-
-Repository:
-- GitHub: https://github.com/Verifrax/irrevocull
-- Package: @verifrax/irrevocull
-- Binary: irrevocull
-
----
-
-## License
-
-MIT
+- not authored protocol source; that belongs to VERIFRAX
+- not authority issuance; that belongs to AUCTORISEAL
+- not governed execution; that belongs to CORPIFORM
+- not public verification; that belongs to VERIFRAX-verify
+- not proof publication; that belongs to proof
+- not archive/reference; that belongs to SIGILLARIUM
+- not intake; that belongs to apply
+- not constitutional doctrine; that belongs to SYNTAGMARIUM
+- not canonical world-state; that belongs to ORBISTIUM
+- not reconciliation or repair; that belongs to CONSONORIUM
+- not sovereign cognition; that belongs to TACHYRIUM
 
 ## Adjacent sovereign surfaces
 
-This repository is part of the Verifrax sovereign stack and remains bounded relative to:
+- `VERIFRAX` — authored protocol and evidence-root boundary
+- `AUCTORISEAL` — authority issuance
+- `CORPIFORM` — governed execution
+- `VERIFRAX-verify` — public verification
+- `proof` — proof publication
+- `SIGILLARIUM` — archive/reference
+- `apply` — intake
 
-- **[ANAGNORIUM](https://github.com/Verifrax/ANAGNORIUM)** for terminal recognition
-- **[REGRESSORIUM](https://github.com/Verifrax/REGRESSORIUM)** for terminal recourse
+IRREVOCULL is a primitive.
+It does not become the repositories that consume it.
+
+## Public surface
+
+The public surface of this repository is its repository identity, README boundary, package surface, binary surface, and primitive materials carried by this repository.
+
+Publication here is not authored source.
+Publication here is not authority.
+Publication here is not execution.
+Publication here is not verification.
+Publication here is not proof publication.
+Publication here is not archive/reference.
+Publication here is not intake.
+
+## Package / host / repo truth
+
+Repository truth for IRREVOCULL lives in this repository.
+
+Package truth for this primitive is `@verifrax/irrevocull`.
+Binary truth for this primitive is `irrevocull`.
+Package, binary, and repository truth are related but not interchangeable.
+
+## Irreversible judgment meaning in-system
+
+Irreversible judgment in-system means the stack can point to IRREVOCULL and say that a bounded irreversible-judgment primitive belongs to this boundary.
+
+Judgment here finalizes.
+Judgment here does not author.
+Judgment here does not issue authority.
+Judgment here does not execute.
+Judgment here does not verify.
+Judgment here does not publish proof.
+
+That does not by itself mean:
+
+- the primitive became authored protocol source
+- the primitive issued authority
+- the primitive executed a governed action
+- the primitive verified truth
+- the primitive published proof
+- the primitive replaced archive/reference
+- the primitive replaced intake
+- the primitive replaced the evidence-root repository
+
+## Not this
+
+IRREVOCULL is not authored protocol source.
+IRREVOCULL is not authority issuance.
+IRREVOCULL is not governed execution.
+IRREVOCULL is not public verification.
+IRREVOCULL is not proof publication.
+IRREVOCULL is not archive/reference.
+IRREVOCULL is not intake.
+
+## License
+
+MIT License
