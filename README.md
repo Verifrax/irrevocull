@@ -1,5 +1,9 @@
 # IRREVOCULL
 
+Package: @verifrax/irrevocull
+Binary: irrevocull
+Repository: Verifrax/irrevocull
+
 IRREVOCULL is the Verifrax irreversible-judgment primitive: the bounded primitive surface for irreversible judgment and final-cut handling without becoming authored protocol source, authority issuance, governed execution, public verification, proof publication, archive/reference, or intake.
 
 ## Proof artifacts

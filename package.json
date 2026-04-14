@@ -5,7 +5,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Verifrax/irrevocull.git"
+    "url": "https://github.com/Verifrax/irrevocull.git"
   },
   "homepage": "https://github.com/Verifrax/irrevocull#readme",
   "bugs": {
