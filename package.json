@@ -1,7 +1,7 @@
 {
   "name": "@verifrax/irrevocull",
   "version": "0.1.0",
-  "description": "Verifrax primitive \u2014 judgment primitive for deterministic irreversible systems.",
+  "description": "Verifrax primitive — judgment primitive for deterministic irreversible systems.",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
